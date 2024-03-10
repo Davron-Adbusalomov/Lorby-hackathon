@@ -1,0 +1,359 @@
+2024-03-10T10:23:51.629+05:00  INFO 13612 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 13612 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T10:23:51.631+05:00  INFO 13612 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T10:23:52.905+05:00  INFO 13612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T10:23:52.906+05:00  INFO 13612 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T10:23:52.952+05:00  INFO 13612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T10:23:53.085+05:00  INFO 13612 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T10:23:53.161+05:00  INFO 13612 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T10:23:53.200+05:00  INFO 13612 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T10:23:53.474+05:00  INFO 13612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T10:23:53.648+05:00  INFO 13612 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44da7eb3
+2024-03-10T10:23:53.649+05:00  INFO 13612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T10:23:53.690+05:00  WARN 13612 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T10:23:54.071+05:00  INFO 13612 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T10:23:54.632+05:00  INFO 13612 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 3.45 seconds (process running for 4.436)
+2024-03-10T11:11:25.043+05:00  INFO 13612 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:11:25.078+05:00  INFO 13612 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:11:38.078+05:00  INFO 16428 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 16428 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:11:38.081+05:00  INFO 16428 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:11:40.148+05:00  INFO 16428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:11:40.148+05:00  INFO 16428 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:11:40.215+05:00  INFO 16428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:11:40.424+05:00  INFO 16428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:11:40.519+05:00  INFO 16428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:11:40.571+05:00  INFO 16428 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:11:40.985+05:00  INFO 16428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:11:41.329+05:00  INFO 16428 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12e5d3e1
+2024-03-10T11:11:41.332+05:00  INFO 16428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:11:41.428+05:00  WARN 16428 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:11:42.953+05:00  INFO 16428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:11:43.081+05:00  WARN 16428 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table user (id bigserial not null, email varchar(255), password varchar(255), username varchar(255), primary key (id))" via JDBC [ERROR: syntax error at or near "user"
+  Position: 14]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table user (id bigserial not null, email varchar(255), password varchar(255), username varchar(255), primary key (id))" via JDBC [ERROR: syntax error at or near "user"
+  Position: 14]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:315) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1231) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:949) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.example.lorby.LorbyApplication.main(LorbyApplication.java:10) ~[main/:na]
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "user"
+  Position: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292) ~[postgresql-42.6.1.jar:42.6.1]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	... 38 common frames omitted
+
+2024-03-10T11:11:44.306+05:00  INFO 16428 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 6.86 seconds (process running for 8.104)
+2024-03-10T11:14:17.732+05:00  INFO 16428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:14:17.777+05:00  INFO 16428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:14:24.949+05:00  INFO 12260 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 12260 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:14:24.950+05:00  INFO 12260 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:14:26.105+05:00  INFO 12260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:14:26.105+05:00  INFO 12260 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:14:26.155+05:00  INFO 12260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:14:26.295+05:00  INFO 12260 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:14:26.390+05:00  INFO 12260 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:14:26.424+05:00  INFO 12260 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:14:26.691+05:00  INFO 12260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:14:26.882+05:00  INFO 12260 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2864f887
+2024-03-10T11:14:26.883+05:00  INFO 12260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:14:26.945+05:00  WARN 12260 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:14:27.745+05:00  INFO 12260 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:14:28.808+05:00  INFO 12260 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 4.271 seconds (process running for 5.065)
+2024-03-10T11:16:23.309+05:00  INFO 12260 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T11:19:53.533+05:00  INFO 12260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:19:53.556+05:00  INFO 12260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:19:58.940+05:00  INFO 17768 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 17768 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:19:58.942+05:00  INFO 17768 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:20:00.273+05:00  INFO 17768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:20:00.273+05:00  INFO 17768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:20:00.322+05:00  INFO 17768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:20:00.456+05:00  INFO 17768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:20:00.532+05:00  INFO 17768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:20:00.568+05:00  INFO 17768 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:20:00.830+05:00  INFO 17768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:20:00.990+05:00  INFO 17768 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14874a5d
+2024-03-10T11:20:00.991+05:00  INFO 17768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:20:01.033+05:00  WARN 17768 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:20:01.815+05:00  INFO 17768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:20:01.891+05:00  INFO 17768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:20:01.894+05:00  INFO 17768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:20:01.896+05:00  INFO 17768 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-10T11:20:01.929+05:00 ERROR 17768 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.lorby.configs.SecurityConfig required a bean of type 'org.springframework.security.authentication.AuthenticationProvider' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationProvider' in your configuration.
+
+2024-03-10T11:22:31.152+05:00  INFO 15340 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 15340 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:22:31.154+05:00  INFO 15340 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:22:32.340+05:00  INFO 15340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:22:32.340+05:00  INFO 15340 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:22:32.396+05:00  INFO 15340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:22:32.558+05:00  INFO 15340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:22:32.645+05:00  INFO 15340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:22:32.688+05:00  INFO 15340 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:22:33.031+05:00  INFO 15340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:22:33.263+05:00  INFO 15340 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44384b4a
+2024-03-10T11:22:33.264+05:00  INFO 15340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:22:33.315+05:00  WARN 15340 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:22:34.174+05:00  INFO 15340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:22:34.250+05:00  INFO 15340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:22:34.253+05:00  INFO 15340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:22:34.255+05:00  INFO 15340 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-10T11:22:34.286+05:00 ERROR 15340 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.lorby.configs.SecurityConfig required a bean of type 'org.springframework.security.authentication.AuthenticationProvider' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationProvider' in your configuration.
+
+2024-03-10T11:23:30.155+05:00  INFO 2532 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 2532 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:23:30.157+05:00  INFO 2532 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:23:31.211+05:00  INFO 2532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:23:31.211+05:00  INFO 2532 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:23:31.261+05:00  INFO 2532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:23:31.388+05:00  INFO 2532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:23:31.470+05:00  INFO 2532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:23:31.511+05:00  INFO 2532 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:23:31.881+05:00  INFO 2532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:23:32.453+05:00  INFO 2532 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d88fa9c
+2024-03-10T11:23:32.455+05:00  INFO 2532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:23:32.534+05:00  WARN 2532 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:23:33.341+05:00  INFO 2532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:23:33.406+05:00  INFO 2532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:23:33.411+05:00  INFO 2532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:23:33.413+05:00  INFO 2532 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-10T11:23:33.448+05:00 ERROR 2532 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.lorby.configs.SecurityConfig required a bean of type 'org.springframework.security.authentication.AuthenticationProvider' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationProvider' in your configuration.
+
+2024-03-10T11:37:28.134+05:00  INFO 18252 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 18252 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:37:28.137+05:00  INFO 18252 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:37:29.695+05:00  INFO 18252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:37:29.695+05:00  INFO 18252 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:37:29.770+05:00  INFO 18252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:37:29.954+05:00  INFO 18252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:37:30.031+05:00  INFO 18252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:37:30.071+05:00  INFO 18252 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:37:30.377+05:00  INFO 18252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:37:30.616+05:00  INFO 18252 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b3bec6c
+2024-03-10T11:37:30.618+05:00  INFO 18252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:37:30.712+05:00  WARN 18252 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:37:31.932+05:00  INFO 18252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:37:33.216+05:00  INFO 18252 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 5.634 seconds (process running for 7.502)
+2024-03-10T11:37:42.218+05:00  INFO 18252 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T11:39:33.304+05:00  INFO 18252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:39:33.317+05:00  INFO 18252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:39:38.997+05:00  INFO 17376 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 17376 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:39:38.999+05:00  INFO 17376 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:39:40.582+05:00  INFO 17376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:39:40.583+05:00  INFO 17376 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:39:40.655+05:00  INFO 17376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:39:40.897+05:00  INFO 17376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:39:40.997+05:00  INFO 17376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:39:41.070+05:00  INFO 17376 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:39:41.560+05:00  INFO 17376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:39:42.134+05:00  INFO 17376 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2154652c
+2024-03-10T11:39:42.136+05:00  INFO 17376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:39:42.212+05:00  WARN 17376 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:39:43.077+05:00  INFO 17376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:39:43.929+05:00  INFO 17376 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 5.315 seconds (process running for 6.197)
+2024-03-10T11:39:52.567+05:00  INFO 17376 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T11:41:45.036+05:00  WARN 17376 --- [http-nio-8080-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [154] milliseconds.
+2024-03-10T11:55:10.957+05:00  INFO 17376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:55:10.986+05:00  INFO 17376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:55:16.447+05:00  INFO 16740 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 16740 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:55:16.448+05:00  INFO 16740 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:55:17.624+05:00  INFO 16740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:55:17.625+05:00  INFO 16740 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:55:17.673+05:00  INFO 16740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:55:17.812+05:00  INFO 16740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:55:17.891+05:00  INFO 16740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:55:17.929+05:00  INFO 16740 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:55:18.197+05:00  INFO 16740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:55:18.409+05:00  INFO 16740 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@286866cb
+2024-03-10T11:55:18.411+05:00  INFO 16740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:55:18.463+05:00  WARN 16740 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:55:19.317+05:00  INFO 16740 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:55:20.226+05:00  INFO 16740 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 4.177 seconds (process running for 4.762)
+2024-03-10T11:55:33.581+05:00  INFO 16740 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T11:58:10.182+05:00  INFO 16740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:58:10.200+05:00  INFO 16740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:58:16.619+05:00  INFO 19180 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 19180 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:58:16.621+05:00  INFO 19180 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:58:17.890+05:00  INFO 19180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:58:17.891+05:00  INFO 19180 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:58:17.950+05:00  INFO 19180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:58:18.092+05:00  INFO 19180 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:58:18.164+05:00  INFO 19180 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:58:18.197+05:00  INFO 19180 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:58:18.462+05:00  INFO 19180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:58:18.653+05:00  INFO 19180 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14874a5d
+2024-03-10T11:58:18.654+05:00  INFO 19180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:58:18.711+05:00  WARN 19180 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:58:19.645+05:00  INFO 19180 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:58:20.568+05:00  INFO 19180 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 4.319 seconds (process running for 5.146)
+2024-03-10T11:58:25.924+05:00  INFO 19180 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T11:59:47.429+05:00  INFO 19180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T11:59:47.460+05:00  INFO 19180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T11:59:52.304+05:00  INFO 3564 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 3564 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T11:59:52.305+05:00  INFO 3564 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T11:59:53.525+05:00  INFO 3564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T11:59:53.526+05:00  INFO 3564 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T11:59:53.576+05:00  INFO 3564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T11:59:53.711+05:00  INFO 3564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T11:59:53.783+05:00  INFO 3564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T11:59:53.821+05:00  INFO 3564 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T11:59:54.114+05:00  INFO 3564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T11:59:54.284+05:00  INFO 3564 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f883d90
+2024-03-10T11:59:54.285+05:00  INFO 3564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T11:59:54.326+05:00  WARN 3564 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T11:59:55.171+05:00  INFO 3564 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T11:59:56.004+05:00  INFO 3564 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 4.041 seconds (process running for 4.634)
+2024-03-10T12:00:02.845+05:00  INFO 3564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T12:36:35.452+05:00  INFO 3564 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T12:36:35.484+05:00  INFO 3564 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T12:36:42.173+05:00  INFO 15836 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 15836 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T12:36:42.175+05:00  INFO 15836 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T12:36:43.446+05:00  INFO 15836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T12:36:43.447+05:00  INFO 15836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T12:36:43.512+05:00  INFO 15836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T12:36:43.705+05:00  INFO 15836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T12:36:43.788+05:00  INFO 15836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T12:36:43.833+05:00  INFO 15836 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T12:36:44.102+05:00  INFO 15836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T12:36:44.278+05:00  INFO 15836 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9f0fc36
+2024-03-10T12:36:44.279+05:00  INFO 15836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T12:36:44.329+05:00  WARN 15836 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T12:36:45.144+05:00  INFO 15836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T12:36:45.975+05:00  INFO 15836 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 4.168 seconds (process running for 4.902)
+2024-03-10T12:48:15.977+05:00  INFO 15836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T12:48:16.099+05:00  INFO 15836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T12:48:25.122+05:00  INFO 6264 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 6264 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T12:48:25.125+05:00  INFO 6264 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T12:48:27.868+05:00  INFO 6264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T12:48:27.869+05:00  INFO 6264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T12:48:27.959+05:00  INFO 6264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T12:48:28.503+05:00  INFO 6264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T12:48:28.589+05:00  INFO 6264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T12:48:28.636+05:00  INFO 6264 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T12:48:29.172+05:00  INFO 6264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T12:48:29.496+05:00  INFO 6264 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@98637a2
+2024-03-10T12:48:29.496+05:00  INFO 6264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T12:48:29.618+05:00  WARN 6264 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T12:48:31.396+05:00  INFO 6264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T12:48:33.026+05:00  INFO 6264 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 8.459 seconds (process running for 9.239)
+2024-03-10T12:49:16.330+05:00  INFO 6264 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T12:51:20.395+05:00  INFO 6264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T12:51:20.430+05:00  INFO 6264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T12:51:26.720+05:00  INFO 24524 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 24524 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T12:51:26.727+05:00  INFO 24524 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T12:51:27.898+05:00  INFO 24524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T12:51:27.899+05:00  INFO 24524 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T12:51:27.947+05:00  INFO 24524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T12:51:28.088+05:00  INFO 24524 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T12:51:28.161+05:00  INFO 24524 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T12:51:28.195+05:00  INFO 24524 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T12:51:28.481+05:00  INFO 24524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T12:51:28.674+05:00  INFO 24524 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@141aba65
+2024-03-10T12:51:28.675+05:00  INFO 24524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T12:51:28.739+05:00  WARN 24524 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T12:51:29.572+05:00  INFO 24524 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T12:51:30.574+05:00  INFO 24524 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 4.219 seconds (process running for 5.048)
+2024-03-10T12:51:40.265+05:00  INFO 24524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T12:51:41.045+05:00  WARN 24524 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2024-03-10T12:51:41.046+05:00 ERROR 24524 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "id" of relation "temporary_user" violates not-null constraint
+  Detail: Failing row contains (null, 8244, islombekermamatov3@gmail.com, abdurahmoniy, davroniy1).
+2024-03-10T12:52:54.101+05:00  INFO 24524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T12:52:54.119+05:00  INFO 24524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-10T12:52:58.224+05:00  INFO 13584 --- [main] com.example.lorby.LorbyApplication       : Starting LorbyApplication using Java 19.0.1 with PID 13584 (C:\Program Files\learn-spring-framework\lorby\lorby\build\classes\java\main started by Asus in C:\Program Files\learn-spring-framework\lorby\lorby)
+2024-03-10T12:52:58.226+05:00  INFO 13584 --- [main] com.example.lorby.LorbyApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T12:52:59.810+05:00  INFO 13584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T12:52:59.811+05:00  INFO 13584 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-10T12:52:59.860+05:00  INFO 13584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T12:52:59.996+05:00  INFO 13584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10T12:53:00.077+05:00  INFO 13584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-10T12:53:00.111+05:00  INFO 13584 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-10T12:53:00.376+05:00  INFO 13584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-10T12:53:00.540+05:00  INFO 13584 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d815fb7
+2024-03-10T12:53:00.542+05:00  INFO 13584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-10T12:53:00.580+05:00  WARN 13584 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-10T12:53:01.363+05:00  INFO 13584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-10T12:53:02.188+05:00  INFO 13584 --- [main] com.example.lorby.LorbyApplication       : Started LorbyApplication in 4.342 seconds (process running for 5.3)
+2024-03-10T12:53:38.526+05:00  INFO 13584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T12:56:10.095+05:00  WARN 13584 --- [http-nio-8080-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+2024-03-10T12:56:53.036+05:00  INFO 13584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-10T12:56:53.050+05:00  INFO 13584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
